@@ -1,0 +1,74 @@
+Faça um programa que leia cinco valores e os armazene em um vetor. Em seguida,
+mostre todos os valores lidos juntamente com a média dos valores.
+2) Faça um programa que leia um vetor de oito posições. Em seguida, leia também dois
+valores X e Y quaisquer correspondentes a duas posições no vetor. Seu programa
+deverá exibir a soma dos valores encontrados nas respectivas posições X e Y.
+3) Faça um programa que receba do usuário um vetor X com 10 posições. Em seguida
+deverão ser impressos o maior e o menor elemento desse vetor.
+4) Faça um programa que preencha um vetor com 10 números reais. Em seguida,
+calcule e mostre na tela a quantidade de números negativos e a soma dos números
+positivos desse vetor.
+5) Faça um programa que receba do usuário dois arrays, A e B, com 10 números
+inteiros cada. Crie um novo array C calculando C = A – B. Mostre na tela os dados do
+array C.
+6) Leia uma matriz de tamanho 3×3. Em seguida, imprima a soma dos valores contidos
+em sua diagonal principal.
+7) Leia uma matriz de tamanho 3×3. Em seguida, imprima a soma dos valores contidos
+em sua diagonal secundária.
+8) Leia uma string do teclado e conte quantas vogais (a, e, i, o, u) ela possui. Entre com
+um caractere (vogal ou consoante) e substitua todas as vogais da palavra dada por
+esse caractere. Ao final, imprima a nova string e o número de vogais que ela possui.
+9) Faça um programa que leia uma string e imprima uma mensagem dizendo se ela é
+um palíndromo ou não. Um palíndromo é uma palavra que tem a propriedade de
+poder ser lida tanto da direita para a esquerda como da esquerda para a direita.
+Exemplos: ovo, arara, rever, asa, osso etc.
+10) O código de César é uma das técnicas de criptografia mais simples e conhecidas. É
+um tipo de substituição no qual cada letra do texto é substituída por outra, que se
+apresenta n posições após ela no alfabeto.
+Por exemplo, com uma troca de três posições, a letra A seria substituída por D, B se
+tornaria E e assim por diante.
+Escreva um programa que faça uso desse código de César para três posições. Entre
+com uma string e imprima a string codificada.
+Exemplo:
+String: a ligeira raposa marrom saltou sobre o cachorro cansado.
+Nova string: d oljhlud udsrvd pduurp vdowrx vreuh r fdfkruur fdqvdgr
+11) Implemente um programa que leia o nome, a idade e o endereço de uma pessoa e
+armazene esses dados em uma estrutura. Em seguida, imprima na tela os dados da
+estrutura lida.
+12) Crie uma estrutura representando um aluno de uma disciplina. Essa estrutura deve
+conter o número de matrícula do aluno, seu nome e as notas de três provas. Agora,
+escreva um programa que leia os dados de cinco alunos e os armazene nessa
+estrutura. Em seguida, exiba o nome e as notas do aluno que possui a maior média
+geral dentre os cinco.
+13) Crie uma estrutura capaz de armazenar o nome e a data de nascimento de uma
+pessoa. Agora, escreva um programa que leia os dados de seis pessoas. Calcule e
+exiba os nomes da pessoa mais nova e da mais velha.
+14) Crie uma estrutura representando um atleta. Essa estrutura deve conter o nome do
+atleta, seu esporte, idade e altura. Agora, escreva um programa que leia os dados
+de cinco atletas. Calcule e exiba os nomes do atleta mais alto e do mais velho.
+15) Crie uma enumeração representando os meses do ano. Agora, escreva um
+programa que leia um valor inteiro do teclado e exiba o nome do mês
+correspondente e quantos dias ele possui.
+16) Elabore uma função para verificar se um número é um quadrado perfeito. Um
+quadrado perfeito é um número inteiro não negativo que pode ser expresso como
+o quadrado de outro número inteiro. Exemplos: 1, 4, 9.
+17) Elabore uma função que receba três notas de um aluno como parâmetros e uma
+letra. Se a letra for “A”, a função deverá calcular a média aritmética das notas do
+aluno; se for “P”, deverá calcular a média ponderada, com pesos 5, 3 e 2. Retorne a
+média calculada para o programa principal.
+18) Faça uma função que receba, por parâmetro, uma matriz A contendo seis linhas e
+seis colunas. Essa função deve retornar, por referência, a soma dos elementos da
+sua diagonal principal e da sua diagonal secundária.
+19) Elabore uma função que receba um vetor contendo N valores e retorne por
+referência o maior e o menor elemento desse vetor.
+20) Elabore uma função que receba por parâmetros os coeficientes de uma equação do
+segundo grau. Em seguida, calcule e mostre as raízes dessa equação.
+Lembre-se de que as raízes são calculadas com a formula de Bhaskara:
+em que ∆ = b2 – 4 * a*c e ax 2 +bx+c= 0 representa uma equação do segundo grau. A
+variável a tem de ser diferente de zero. Caso seja igual, imprima a mensagem “Não
+é equação de segundo grau” e retorne o valor −1.
+Do contrário, retorne o número de raízes e as raízes (por referência) se elas
+existirem:
+a Se ∆ < 0, não existe real. Número de raízes: 0.
+b Se ∆ = 0, existe uma raiz real. Número de raízes: 1.
+c Se ∆ > 0, existem duas raízes reais. Número de raízes: 2
